@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+body {
+  background-color: hsl(204, 43%, 93%);
+  font-family: 'Karla', sans-serif;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  margin-top: 160px;
+  margin-left: 450px;
+  background-color: white;
+  height: 560px;
+  width: 800px;
+  overflow: hidden;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.07);
+  box-shadow: 0 0 20px 7px rgba(0, 0, 0, 0.06);
+}
+
+.upper-lane {
+  padding-top: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 30px;
+}
+.upper-lane h1 {
+  font-weight: 700;
+  color: hsl(179, 62%, 43%);
+}
+.upper-lane h2 {
+  font-weight: 700;
+  color: hsl(71, 73%, 54%);
+}
+.upper-lane p {
+  font-weight: 700;
+  font-size: 18px;
+  color: hsl(218, 22%, 67%);
+}
+.lower-lane {
+  display: flex;
+  color: hsl(180, 22%, 93%);
+  width: 100%;
+}
+.left-col {
+  background-color: hsl(179, 62%, 43%);
+  width: 50%;
+  padding-top: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+}
+.left-col p {
+  font-weight: 400;
+  font-size: 20px;
+  margin-top: 10px;
+  color: hsl(180, 26%, 87%);
+}
+.promotion {
+  display: flex;
+  align-items: center;
+}
+.promotion-fund {
+  font-size: 40px;
+  font-weight: 700;
+}
+.promotion-text {
+  font-size: 20px;
+  font-weight: 700;
+  padding-left: 15px;
+  color: hsl(179, 49%, 63%);
+}
+
+button {
+  color: white;
+  height: 50px;
+  width: 100%;
+  border: none;
+  background-color: hsl(71, 73%, 54%);
+  border-radius: 7px;
+  font-weight: 700;
+  font-size: 18px;
+  margin-top: 15px;
+}
+button:hover {
+  background-color: hsl(71, 60%, 49%);
+}
+button:active {
+  background-color: hsl(71, 53%, 43%);
+}
+.right-col {
+  background-color: hsl(179, 58%, 47%);
+  width: 50%;
+  padding-top: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+}
+.right-col p {
+  margin-right: 80px;
+  line-height: 1.5;
+  color: hsl(180, 35%, 85%);
+}
