@@ -13,7 +13,7 @@ body {
   color: hsl(228, 45%, 44%);
 }
 .card {
-  display-flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
